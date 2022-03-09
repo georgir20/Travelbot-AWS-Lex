@@ -1,0 +1,26 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS `awt_voicebot_india`.`hotels_in_india` (
+  `area` string,
+  `city` string,
+  `highlight_value` string,
+  `hotel_overview` string,
+  `hotel_star_rating` int,
+  `latitude` int,
+  `longitude` int,
+  `mmt_review_count` int,
+  `mmt_review_rating` string,
+  `mmt_review_score` int,
+  `property_address` string,
+  `property_id` string,
+  `property_name` string,
+  `room_types` string,
+  `site_review_rating` int,
+  `state` string,
+  `traveller_rating` string,
+  `uniq_id` string
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe' 
+WITH SERDEPROPERTIES (
+  'serialization.format' = ';',
+  'field.delim' = ';'
+) LOCATION 's3://awt-voicebot/data/india_hotels/'
+TBLPROPERTIES ('has_encrypted_data'='false');
