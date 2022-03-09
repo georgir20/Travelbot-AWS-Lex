@@ -1,4 +1,13 @@
 
+This repository provides the whole code of a travel bot (chat bot) that I created as part of the project course “advanced web technologies” at TU Berlin. The travel bot which was built in AWS Lex guides the user through a tour in India while providing recommendations for a hotel and train connections. The installation guideline for the travel bot can be found below. The goal of the overall project course was to compare multiple bot frameworks. The final results of this course can be seen in the presentation which was created with my fellow students Sadaf Yazdanparast and Julius Kaiser.  
+The AWS Lex bot and all the according source code was created solely by me. 
+
+
+
+
+
+
+
 
 <h1 align="center">AWS Lex Travelbot</h1>
 <h2 align="center">Advanced Web Technologies - Project </h2>
