@@ -56,10 +56,10 @@ To start working with the AWS based travelbot, you first need to create an accou
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/AWS Account Creation 1.jpg">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Account Creation 1.jpg">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/AWS Account Creation 1.jpg"
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Account Creation 1.jpg"
       width="400" 
       height="600">                                                      >
 </a>
@@ -67,10 +67,10 @@ To start working with the AWS based travelbot, you first need to create an accou
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/AWS Account Creation 2.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Account Creation 2.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/AWS Account Creation 2.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Account Creation 2.PNG" 
     >
 </a>
 
@@ -85,10 +85,10 @@ Then open the S3 bucket "AWT Voicebot".
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/AWS Lex Travelbot - S3 Storage Buckets.jpg">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex Travelbot - S3 Storage Buckets.jpg">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/AWS Lex Travelbot - S3 Storage Buckets.jpg" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex Travelbot - S3 Storage Buckets.jpg" 
     >
 </a>
 
@@ -97,10 +97,10 @@ As seen in the second picture. Create a data folder and open it.
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/S3 Data Folder.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/S3 Data Folder.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/S3 Data Folder.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/S3 Data Folder.PNG" 
     >
 </a>
 
@@ -112,10 +112,10 @@ An example can be seen below.
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/india_hotels folder.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/india_hotels folder.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/india_hotels folder.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/india_hotels folder.PNG" 
     >
 </a>
 
@@ -130,10 +130,10 @@ Please insert the statement "CREATE DATABASE awt_voicebot_india" in query editor
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/AWS Athena.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Athena.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/AWS Athena.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Athena.PNG" 
     >
 </a>
 
@@ -151,10 +151,10 @@ Please go the the IAM Service Overview. There please click on "Create Role"/"Rol
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/IAM Role Service Overview.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/IAM Role Service Overview.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/IAM Role Service Overview.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/IAM Role Service Overview.PNG" 
     >
 </a>
 
@@ -163,10 +163,10 @@ Please name the role "indian_hotels_role2" as it is embedded with this clarifica
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/IAM role - hotels_in_india2 .PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/IAM role - hotels_in_india2 .PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/IAM role - hotels_in_india2 .PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/IAM role - hotels_in_india2 .PNG" 
     >
 </a>
 --- 
@@ -177,10 +177,10 @@ After you have created the IAM access role you can now create all necessary Lamb
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/Lambda Functions Overview.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/Lambda Functions Overview.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/Lambda Functions Overview.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/Lambda Functions Overview.PNG" 
     >
 </a>
 
@@ -188,10 +188,10 @@ When you create the Lambda function please pay attention to always select the fo
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/Create Lambda Function PreSettings.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/Create Lambda Function PreSettings.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/Create Lambda Function PreSettings.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/Create Lambda Function PreSettings.PNG" 
     >
 </a>
 
@@ -200,10 +200,10 @@ Make sure the run time/Laufzeit is always Python 3.9 and the access role is the 
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/Lambda Function Code Pasting.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/Lambda Function Code Pasting.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/Lambda Function Code Pasting.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/Lambda Function Code Pasting.PNG" 
     >
 </a>
 
@@ -213,10 +213,10 @@ Finally go back to the Code area and click on "Deploy".
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/Lambda Function General Configuration.jpg">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/Lambda Function General Configuration.jpg">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/Lambda Function General Configuration.jpg" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/Lambda Function General Configuration.jpg" 
     >
 </a>
 
@@ -231,10 +231,10 @@ On the bot overview page please click on the "Action" button.
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/AWS Lex Bot Overview.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex Bot Overview.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/AWS Lex Bot Overview.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex Bot Overview.PNG" 
     >
 </a>
 
@@ -243,10 +243,10 @@ Then click on import and the bot import pop-up will open. In this pop-up please 
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/AWS Lex Bot Import.jpg">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex Bot Import.jpg">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/AWS Lex Bot Import.jpg" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex Bot Import.jpg" 
     >
 </a>
 
@@ -261,10 +261,10 @@ Now please click on the "Build" button on the top right corner to get our travel
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/AWS Lex - Build Bot.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex - Build Bot.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/AWS Lex - Build Bot.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex - Build Bot.PNG" 
     >
 </a>
 
@@ -273,10 +273,10 @@ The Test bot window should now be visible on the right part of the screen. Type 
 <a 
     title="Project"
     target="_blank"
-    href="./Instruction Screenshots/AWS Lex Bot Interaction.PNG">
+    href="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex Bot Interaction.PNG">
     <img 
       alt="Banner"
-      src="./Instruction Screenshots/AWS Lex Bot Interaction.PNG" 
+      src="./Travelbot AWS Lex Source Code/Instruction Screenshots/AWS Lex Bot Interaction.PNG" 
     >
 </a>
 
